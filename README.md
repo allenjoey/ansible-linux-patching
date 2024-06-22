@@ -12,7 +12,7 @@ Optional, check for updates before running, ansible-playbook update.yml -C -v
 
 Optional, run the playbook with the wrapper scripts, update if needed the --limit with your own inventory groups.
 
-./run-patching-playbook-check.sh Check the patches needed before applying
+./run-patching-playbook-check.sh (Check the patches needed before applying)
 
 ./run-patching-playbook.sh
 
