@@ -18,7 +18,7 @@ Optional, run the playbook with the wrapper scripts, update if needed the --limi
 
 ./run-patching-playbook.sh
 
-Jenkinsfile for running in a Jenkins Pipeline (formerly knon as workfloes)
+Jenkinsfile for running in a Jenkins Pipeline (formerly known as workflows)
 
 Example inventory file included called inventory
 
