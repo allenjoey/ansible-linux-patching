@@ -1,4 +1,4 @@
-Repo: data-depot-01
+Repo: ansible-linix-patching
 
 # Ansible Playbook that fully automates the "manual" patching of Red Hat, Rocky9 and Debian/Ubuntu, using all known official patches.
 
