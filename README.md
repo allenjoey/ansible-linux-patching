@@ -1,4 +1,4 @@
-Repo: ansible-linix-patching
+Repo: ansible-linux-patching
 
 # Ansible Playbook that fully automates the "manual" patching of Red Hat, Rocky9 and Debian/Ubuntu, using all known official patches.
 
