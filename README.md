@@ -32,4 +32,4 @@ Please make sure to update tests as appropriate.
 
 ## Author Information
 
-[Author: Joey Allen](https://github.com/allen-joey)
+[Author: K3S3](https://github.com/k3s3)
