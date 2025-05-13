@@ -3,6 +3,11 @@ pipeline {
     agent any
 
     stages {
+        stage('Verify Branch') {
+            steps {
+                echo "$GIT_BRANCH"
+            }
+        }
         stage('Execute Ansible Playbook') {
             steps {
                 ansiblePlaybook credentialsId: 'private-key',
@@ -17,7 +22,7 @@ pipeline {
     post {
         always {
             step([$class: 'Mailer', notifyEveryUnstableBuild: true,
-                recipients: 'youremail@youremail.com'])
+                recipients: 'your_email@your_domain'])
         }
     }
 }
